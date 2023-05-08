@@ -84,9 +84,12 @@ function Update() {
 }
 
 function HandleKeyDown(ev){
-    if(ev.keyCode == 32){
+    if(ev.keyCode == 32 || ev.keyCode==38 || ev.type == "touchstart"){
         Saltar();
     }
+}
+function HandleTouch(){
+    Saltar();
 }
 
 function Saltar(){

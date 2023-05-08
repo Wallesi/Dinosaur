@@ -5,7 +5,8 @@
 
 body{
     height: 100vh;
-    background: #584040;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
     display: flex;
     align-items: center;
 }
@@ -126,6 +127,21 @@ body{
     font-size: 30px;
     font-family: Verdana;
     font-weight: 700;
+}
+.boton{
+    margin-top: 15px;
+    border-style: none;
+    padding:10px 10px 10px 10px;
+    font-family: Verdana;
+    border-radius: 10px;
+    background-color: #5153cf;
+    
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ffdcf3;
+}
+.boton:hover{
+    background-color: #8BC6EC;
 }
 
 @keyframes animarDino{

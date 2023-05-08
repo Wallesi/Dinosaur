@@ -8,8 +8,8 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="contenedor">
+<body ontouchstart="HandleTouch()">
+    <div class="contenedor" >
 
         <div class="suelo"></div>
         
@@ -19,7 +19,12 @@
 
     </div>
 
-    <div class="game-over">GAME OVER</div>
+    <div class="game-over">GAME OVER
+        <div>
+            <button onclick="location.reload()" class="boton">Replay</button>
+        </div>
+    </div>
+    
 
 
     <script src="/scripts/move.js"></script>
